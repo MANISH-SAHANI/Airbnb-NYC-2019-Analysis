@@ -49,7 +49,7 @@ The R-script file contains the code that was used to generate the results.The co
 Additionally, the code in the R-script file is well-structured, clearly commented, and organized in a logical fashion, making it easy for any user to understand and apply the code to their own data and projects.
 
 ```
-                               You can just clone the repository or download the repository to have a look
+<p align="center"> You can just clone the repository or download the repository to have a look</p>
 ```
 
  
