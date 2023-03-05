@@ -1,50 +1,41 @@
 <h1 align="center"> 📈Airbnb NYC 2019</h1>
  
-## Importing Some Required Library and the Data Set :
-<p>
- 
-library(tidyverse)
 
-library(glue)
+## Context:
 
-library(dplyr)
+Since 2008, guests and hosts have used Airbnb to expand on traveling possibilities and present more unique, personalized way of experiencing the world. This project deals with “Airbnb NYC 2019” Dataset.
 
-library(esquisse)
+As a data modeling and visualization specialist, you are required to work on the dataset to perform EDA and fulfill the business requirement.
 
-library(ggthemes)
+The data file “Airbnb NYC 2019 includes all the necessary information needed to find out more about the hosts, geographical availability, necessary metrics to make predictions and draw conclusions.
 
-library(lubridate)
-
-library(tinytex)
-
-library(shiny)
-
-library(knitr)
- 
-</p>
-
-## Importing DataSet
-airbnb <- read.csv("C:/Desktop/Industry_Assignment_2/Assignment2_Solution/Airbnb.csv",header = TRUE)
-
-## Viewing the data set
-head(airbnb)
-
-<p align="left">
-  <img width="700" src="https://user-images.githubusercontent.com/91081774/222950681-51d779e7-0042-4a6f-868d-2a9138b9a5a8.png"/>
-</p>
+## Activities To Perform:
 
 
-### 1) PRE PROCESSING 
+Perform the following activities on the dataset using R Language. You may use any
+R centric libraries as may be needed to complete the operations.
 
-#### a.Checking For Missing Values
-<p>
-  NAValues <- airbnb %>% select(everything()) %>% summarise_all(funs(sum(is.na(.))))
-  
-  NAValues
-</p>
+```
+        1) Perform Pre-processing on the dataset as required.
 
-#### b.Checking For Duplicated values
-sum(duplicated(airbnb))
- #There are No Duplicated Values in the data set
+                           a.Treat missing values
+                           b.Remove duplicates if any
+                           c.Identify and treat outliers if any
+                           d.Transform Data based on judgement and explain the methodology used
+```
 
-summary(airbnb)
+```
+        2) Perform Exploratory Data Analysis on the ‘Airbnb NYC 2019’ Dataset 
+                           a.  What can we learn about different hosts and areas?
+                           b.  Which hosts are the busiest and why?
+                           c.  Is there any noticeable difference in traffic among different areas
+                               and what could be the reason for it?
+```
+
+```
+         3)  Plot Graphs and charts to demonstrate the following:
+                           a.  Cluster of hosts according to neighborhood group.
+                           b.  Plot a graph showing room_type chosen commonly with neighborhood group.
+                           c.  Plot average price with neighborhood.
+                           d.  Plot highest, lowest, and median price of stay with neighborhood.     
+```
