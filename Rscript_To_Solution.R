@@ -9,7 +9,7 @@ library(shiny)
 library(knitr)
 
 #Importing Data
-airbnb <- read.csv("C:/Users/manis/Desktop/Industry_Assignment_2/Assignment2_Solution/Airbnb.csv",header = TRUE)
+airbnb <- read.csv("C:/Desktop/Industry_Assignment_2/Assignment2_Solution/Airbnb.csv",header = TRUE)
 
 #Viewing the data set
 head(airbnb)
