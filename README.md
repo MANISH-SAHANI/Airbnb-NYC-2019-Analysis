@@ -39,3 +39,17 @@ R centric libraries as may be needed to complete the operations.
                            c.  Plot average price with neighborhood.
                            d.  Plot highest, lowest, and median price of stay with neighborhood.     
 ```
+
+## Here's the solution : 
+
+For the above context, there is a r-script file and a PDF document for the solution.
+
+The R-script file contains the code that was used to generate the results.The code is written in the R programming language and can be used to reproduce the same results and the pdf document contains the same information in a well-organized form.
+
+Additionally, the code in the R-script file is well-structured, clearly commented, and organized in a logical fashion, making it easy for any user to understand and apply the code to their own data and projects.
+
+```
+You can just clone the repository or download the repository to have a look
+```
+
+ 
